@@ -23,7 +23,7 @@ public class Client {
             String put = sc.next();
             pw.println(put);
             String get = br.readLine();
-            if (get.equals("789")) {
+            if (get.equals("exit")) {
                 System.out.println("结束连接！");
                 client.close();
                 break;
