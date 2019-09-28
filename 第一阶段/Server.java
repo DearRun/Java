@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ServerClass {
     public static void main(String[] args) throws IOException {
         //创建套接字
-        System.out.println("服务端初始化......");
+        System.out.println("服务端初始化.......");
         ServerSocket server = new ServerSocket(5000);
         System.out.println("正在等待客户端连接......");
         Socket client = server.accept();
